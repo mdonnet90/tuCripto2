@@ -1,6 +1,6 @@
-﻿body
-{
+﻿body {
     background-color:yellowgreen
+  
 }
 
 p {
@@ -84,6 +84,7 @@ table tr td {
     display: grid;
     margin: auto;
     justify-content: center;
+    
 }
 
 .gridCotizaciones {
@@ -98,7 +99,9 @@ table tr td {
         border: solid;
         margin: 20px;
         padding: 25px;
-        transition: transform .2s
+        transition: transform .2s;
+        transform: skewY(5deg);
+        background-image: linear-gradient(to right, yellow, blue);
     }
 
     .gridCotizaciones div:hover {
@@ -112,12 +115,12 @@ table tr td {
     justify-content: center;
     }
 
-   .gridNoticias div {
-    border: solid;
-    margin: 20px;
-    background-color: silver;
-    transition: transform .2s
-    }
+        .gridNoticias div {
+            border: solid;
+            margin: 20px;
+            background-image: linear-gradient(to right, yellow, red);
+            transition: transform .2s;
+        }
 
     .gridNoticias div:hover {
         transform: scale(1.25);
