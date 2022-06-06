@@ -78,6 +78,7 @@ table tr td {
     flex-flow: row;
     justify-content: flex-end;
     align-items: stretch;
+    vertical-align: middle;
 }
 
 .basicGrid {
@@ -98,7 +99,7 @@ table tr td {
         background-color: gold;
         border: solid;
         margin: 20px;
-        padding: 25px;
+        padding: 20px;
         transition: transform .2s;
         transform: skewY(5deg);
         background-image: linear-gradient(to right, yellow, blue);

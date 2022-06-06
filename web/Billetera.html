@@ -5,29 +5,30 @@
     <meta charset="utf-8" />
     <title>Billetera - Tu Cripto </title>
     <link rel="stylesheet" type="text/css" href="..\Styles\Styles.css" />
+    <link rel="stylesheet" type="text/css" href="..\Styles\bootstrap.min.css" />
 </head>
-<body>
-    <header>
+<body class="bg-warning"> 
+    <header class="bg-warning" >
         <ul id="menu">
-            <li><a href="..\index.html"> <p> Pagina de Inicio </p> </a> </li>
-            <li><a href="Billetera.html"> <p> Billetera </p> </a> </li>
-            <li><a href="Cotizaciones.html"> <p> Cotizaciones </p> </a> </li>
-            <li><a href="Transacciones.html"> <p> Historial Transacciones </p> </a> </li>
-            <li><a href="Estadisticas.html"> <p> Estadisticas </p> </a> </li>
-            <li><a href="Contactos.html"> <p> Contacto </p> </a> </li>
+            <li class="text-center"><a href="..\index.html"> <p> Pagina de Inicio </p> </a> </li>
+            <li class="text-center"><a href="Billetera.html"> <p> Billetera </p> </a> </li>
+            <li class="text-center"><a href="Cotizaciones.html"> <p> Cotizaciones </p> </a> </li>
+            <li class="text-center"><a href="Transacciones.html"> <p> Historial Transacciones </p> </a> </li>
+            <li class="text-center"><a href="Estadisticas.html"> <p> Estadisticas </p> </a> </li>
+            <li class="text-center"><a href="Contactos.html"> <p> Contacto </p> </a> </li>
         </ul>
     </header>
-    <main>
-        <div class="basicGrid">
-            <h1>Billetera Virtual </h1>
+    <main class="bg-warning">
+        <div class="container-fluid">
+            <p class="h1">Billetera Virtual</p>
         </div>
 
-        <div class="basicGrid">
-            <p>Tu Billetera cargada en el sistema</p>
+        <div class="container-fluid">
+            <p class="h3 py-3" >Tu Billetera cargada en el sistema</p>
 
 
 
-            <table id="tablaDatos" border="1">
+            <table class="table table-striped table-success"  border="1">
                 <tr>
                     <td class="cabecera"> Moneda </td>
                     <td class="cabecera"> Cantidad</td>
@@ -47,10 +48,10 @@
             </table>
         </div>
     </main>
-    <footer>
+    <footer class="bg-success">
         <p>________________________________________________________________________</p>
 
-        <p>
+        <p class="h3">
             Todos los derechos de autor estan reservados para la empresa TuCripto S.A.
         </p>
     </footer>

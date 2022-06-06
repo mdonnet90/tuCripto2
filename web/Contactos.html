@@ -5,40 +5,39 @@
     <meta charset="utf-8" />
     <title>Contactos - Tu Cripto </title>
     <link rel="stylesheet" type="text/css" href="..\Styles\Styles.css" />
+    <link rel="stylesheet" type="text/css" href="..\Styles\bootstrap.min.css" />
 </head>
-<body>
-    <header>
+<body class="bg-warning">
+    <header class="bg-warning">
         <ul id="menu">
-            <li><a href="..\index.html"> <p> Pagina de Inicio </p> </a> </li>
-            <li><a href="Billetera.html"> <p> Billetera </p> </a> </li>
-            <li><a href="Cotizaciones.html"> <p> Cotizaciones </p> </a> </li>
-            <li><a href="Transacciones.html"> <p> Historial Transacciones </p> </a> </li>
-            <li><a href="Estadisticas.html"> <p> Estadisticas </p> </a> </li>
-            <li><a href="Contactos.html"> <p> Contacto </p> </a> </li>
+            <li class="text-center"><a href="..\index.html"> <p> Pagina de Inicio </p> </a> </li>
+            <li class="text-center"><a href="Billetera.html"> <p> Billetera </p> </a> </li>
+            <li class="text-center"><a href="Cotizaciones.html"> <p> Cotizaciones </p> </a> </li>
+            <li class="text-center"><a href="Transacciones.html"> <p> Historial Transacciones </p> </a> </li>
+            <li class="text-center"><a href="Estadisticas.html"> <p> Estadisticas </p> </a> </li>
+            <li class="text-center"><a href="Contactos.html"> <p> Contacto </p> </a> </li>
         </ul>
     </header>
-    <main>
-        <div class="basicGrid">
-            <p Class="titulo">Contactos</p>
+    <main class="bg-warning">
+        <div class="container-fluid my-3">
+            <p class="h1">Contactos</p>
         </div>
         <div class="basicGrid">
-            <p>Para contactarnos puede hacerlo via mail al correo contactanos@tucripto.com o completando el siguiente formulario </p>
+            <p class=" h3 py-3">Para contactarnos puede hacerlo via mail al correo contactanos@tucripto.com o completando el siguiente formulario </p>
             <form>
 
-                <p>Mail</p> <input type="email" required />
-                <p>Consulta</p>
+                <p class="lead text-left">Mail</p> <input type="email" required />
+                <p class="lead text-left">Consulta</p>
                 <textarea rows="10" cols="50"> Escriba su consulta aqui   </textarea>
-                <br />
-                <br>
-                <br>
-                <input type="submit">
+
+                <input class="m-4" type="submit">
             </form>
         </div>
     </main>
-    <footer>
+    <footer class="bg-success">
         <p>________________________________________________________________________</p>
 
-        <p>
+        <p class="h3">
             Todos los derechos de autor estan reservados para la empresa TuCripto S.A.
         </p>
     </footer>
