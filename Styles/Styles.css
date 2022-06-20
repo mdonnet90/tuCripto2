@@ -1,9 +1,4 @@
-﻿body {
-    background-color:yellowgreen
-  
-}
-
-p {
+﻿p {
     font-weight: bold;
     text-align: center;
 }
@@ -24,19 +19,6 @@ img {
     font-size:30px;
 }
 
-li {
-    list-style: none;
-    border: solid;
-    display: inline-block;
-    height: 50px;
-    width: 100px;
-    text-align: center;
-    vertical-align: middle;
-    /*padding: 10px;
-    margin-inline: 5px;*/
-    flex-grow:1;
-}
-
 input {
     display: block;
     margin: auto;
@@ -49,20 +31,6 @@ textarea {
 
 
 
-table {
-    border: solid;
-    text-align: center;
-    width: 100%
-}
-table tr td {
-    border: 3px solid grey;
-    width: 16%;
-
- }
-
-.cabecera{
-    font-weight:bold;
-}
 
 #tablaDatos {
     background-color:lightgray;
@@ -73,14 +41,6 @@ table tr td {
 
 }
 
-#menu {
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-end;
-    align-items: stretch;
-    vertical-align: middle;
-}
-
 .basicGrid {
     display: grid;
     margin: auto;
@@ -88,26 +48,7 @@ table tr td {
     
 }
 
-.gridCotizaciones {
-    display: grid;
-    grid-template-rows: 200px 200px 200px;
-    grid-template-columns: 200px 200px 200px;
-    justify-content:center;
-}
 
-    .gridCotizaciones div {
-        background-color: gold;
-        border: solid;
-        margin: 20px;
-        padding: 20px;
-        transition: transform .2s;
-        transform: skewY(5deg);
-        background-image: linear-gradient(to right, yellow, blue);
-    }
-
-    .gridCotizaciones div:hover {
-        transform: scale(1.25);
-    } 
     
     .gridNoticias {
     display: grid;
@@ -134,3 +75,5 @@ table tr td {
     height: 400px;
    
     }
+
+

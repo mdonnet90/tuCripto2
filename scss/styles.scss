@@ -1,0 +1,66 @@
+.gridCotizaciones{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+
+
+    div{
+    background-color: gold;
+    border: solid;
+    margin: 20px;
+    padding: 20px;
+    transition: transform .2s;
+    transform: skewY(5deg);
+    background-image: linear-gradient(to right, yellow, blue);
+    
+
+         :hover {
+        transform: scale(1.25);
+        }
+     }
+}
+
+#menu {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: stretch;
+    vertical-align: middle;
+
+    li {
+        list-style: none;
+        border: solid;
+        display: inline-block;
+        height: 50px;
+        width: 100px;
+        text-align: center;
+        vertical-align: middle;
+        flex-grow: 1;
+
+        p {
+            font-weight: bold;
+        }
+    }
+}
+
+table {
+    border: solid;
+    text-align: center;
+    width: 100%;
+
+    .cabecera {
+        font-weight: bold;
+    }
+
+    tr td {
+        border: 3px solid grey;
+        width: 16%;
+    }
+}
+
+$Color-Background: yellowgreen;
+
+body {
+    background-color: $Color-Background
+}

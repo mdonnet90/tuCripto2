@@ -1,0 +1,46 @@
+.gridCotizaciones {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: center; }
+  .gridCotizaciones div {
+    background-color: gold;
+    border: solid;
+    margin: 20px;
+    padding: 20px;
+    transition: transform .2s;
+    transform: skewY(5deg);
+    background-image: linear-gradient(to right, yellow, blue); }
+    .gridCotizaciones div :hover {
+      transform: scale(1.25); }
+
+#menu {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: stretch;
+  vertical-align: middle; }
+  #menu li {
+    list-style: none;
+    border: solid;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    flex-grow: 1; }
+    #menu li p {
+      font-weight: bold; }
+
+table {
+  border: solid;
+  text-align: center;
+  width: 100%; }
+  table .cabecera {
+    font-weight: bold; }
+  table tr td {
+    border: 3px solid grey;
+    width: 16%; }
+
+body {
+  background-color: yellowgreen; }

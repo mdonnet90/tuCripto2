@@ -1,0 +1,138 @@
+﻿body {
+    background-color:yellowgreen
+  
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height:500px;
+}
+
+.lista {
+    text-align:left ;
+
+}
+
+.titulo {
+    font-size:30px;
+}
+
+li {
+    list-style: none;
+    border: solid;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    /*padding: 10px;
+    margin-inline: 5px;*/
+    flex-grow:1;
+}
+
+input {
+    display: block;
+    margin: auto;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+}
+
+
+
+table {
+    border: solid;
+    text-align: center;
+    width: 100%
+}
+table tr td {
+    border: 3px solid grey;
+    width: 16%;
+
+ }
+
+.cabecera{
+    font-weight:bold;
+}
+
+#tablaDatos {
+    background-color:lightgray;
+    content:normal;
+    width:100%;
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+
+#menu {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: stretch;
+    vertical-align: middle;
+}
+
+.basicGrid {
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.gridCotizaciones {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content:center;
+}
+
+    .gridCotizaciones div {
+        background-color: gold;
+        border: solid;
+        margin: 20px;
+        padding: 20px;
+        transition: transform .2s;
+        transform: skewY(5deg);
+        background-image: linear-gradient(to right, yellow, blue);
+    }
+
+    .gridCotizaciones div:hover {
+        transform: scale(1.25);
+    } 
+    
+    .gridNoticias {
+    display: grid;
+    grid-template-rows: 550px 550px;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+    }
+
+        .gridNoticias div {
+            border: solid;
+            margin: 20px;
+            background-image: linear-gradient(to right, yellow, red);
+            transition: transform .2s;
+        }
+
+    .gridNoticias div:hover {
+        transform: scale(1.25);
+    }
+    
+    .imgNoticia {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+   
+    }
+
+
