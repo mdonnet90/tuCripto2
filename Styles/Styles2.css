@@ -11,7 +11,7 @@
     transition: transform .2s;
     transform: skewY(5deg);
     background-image: linear-gradient(to right, yellow, blue); }
-    .gridCotizaciones div :hover {
+    .gridCotizaciones div:hover {
       transform: scale(1.25); }
 
 #menu {
@@ -28,19 +28,26 @@
     width: 100px;
     text-align: center;
     vertical-align: middle;
-    flex-grow: 1; }
+    flex-grow: 1;
+    text-align: center;
+    font-weight: normal; }
     #menu li p {
+      text-align: center;
       font-weight: bold; }
 
 table {
   border: solid;
   text-align: center;
+  font-weight: normal;
   width: 100%; }
   table .cabecera {
+    text-align: center;
     font-weight: bold; }
   table tr td {
     border: 3px solid grey;
-    width: 16%; }
+    width: 16%;
+    text-align: center;
+    font-weight: normal; }
 
 body {
   background-color: yellowgreen; }
